@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anne Confeitaria</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+</head>
+<body>
+    
+        <header id="cabecalho">
+            <div class="navbar navbar-expand-lg">
+                <div class="container "> 
+                <h1 class="my-auto">Confeitaria Anne Oliveira</h1>
+                    <nav >
+                        <ul class="nav navbar-nav  ">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#sobre-a-loja">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#cardapio">Cardapio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contato">Contato</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+        <section id="sobre-a-loja">
+            <img src="./img/logo.jpg" alt="">
+            <p>Bem-vindo à Confeitaria Anne Oliveira, o seu cantinho especial de bolos decorados, doces de festa e cupcakes feitos com carinho e criatividade! Aqui, cada doce é pensado para transformar momentos comuns em celebrações inesquecíveis, com sabores irresistíveis e designs personalizados.
+    
+                Seja para aniversários, casamentos ou qualquer ocasião especial, nossos bolos artesanais e cupcakes são preparados com ingredientes de alta qualidade e muito capricho. Na Confeitaria Anne Oliveira, a doçura vai além do sabor – é uma experiência feita especialmente para você!
+                
+                Deixe suas festas ainda mais especiais com nossos doces. Vamos adoçar seu dia! </p>
+        </section>
+        <div id="carousel-img" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img src="./img/carosel.jpg" class="d-block w-100" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="./img/carosel2.jpg" class="d-block w-100" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="./img/carosel3.jpg" class="d-block w-100" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="./img/carosel4.jpg" class="d-block w-100" alt="">
+                </div>
+            </div>
+            <button data-bs-target="#carousel-img" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-img" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="carousel-img" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="carousel-img" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="carousel-img" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="carousel-img" data-bs-slide-to="3"></button>
+            </div>
+        </div>
+        <div class="container">
+        <section id="cardapio">
+            <h2>Cardapio</h2>
+            
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <article class="card">
+                            <header class="card-header">                            
+                            </header>
+                            <img src="./img/bolo.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Bolos</h4>
+                                <p class="card-text">
+                                    Encomende abaixo
+                                </p>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="#" class="btn btn-primary">Encomendar</a>
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <article class="card">
+                            <header class="card-header">
+                                
+                            </header>
+                            <img src="./img/doce.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Doces</h4>
+                                <p class="card-text">
+                                    Encomende abaixo
+                                </p>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="#" class="btn btn-primary">Encomendar</a>
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <article class="card">
+                            <header class="card-header">
+                                
+                            </header>
+                            <img src=".//img/cupcake.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">CupCake</h4>
+                                <p class="card-text">
+                                    Encomende abaixo
+                                </p>
+                            </div>
+                            <footer class="card-footer">
+                                <a href="#" class="btn btn-primary">Encomendar</a>
+                            </footer>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+        <section id="contato">
+            <footer>
+                <div class="container">   <div class="footer-content">
+                        <div class="footer-info">
+                            <h3>Confeitaria Anne Oliveira</h3>
+                            <p>Endereço: Rua Exemplo, 123 - Centro</p>
+                            <p>Telefone: (00) 1234-5678</p>
+                            <p>Email: contato@confeitariaanne.com</p>
+                        </div>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://web.whatsapp.com/" aria-label="WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p>&copy; 2025 Edson Imports. Todos os direitos reservados</p>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
